@@ -14,3 +14,4 @@ with DAG(
         sql="SELECT 1;",
         # hook_params={"schema": "my_db"},  # optional: target DB/schema
     )
+
