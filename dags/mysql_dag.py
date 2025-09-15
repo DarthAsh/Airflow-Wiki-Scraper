@@ -1,3 +1,4 @@
+##This is used to check the myswl connection
 from airflow import DAG
 from airflow.providers.common.sql.operators.sql import SQLExecuteQueryOperator
 from datetime import datetime
@@ -14,4 +15,5 @@ with DAG(
         sql="SELECT 1;",
         # hook_params={"schema": "my_db"},  # optional: target DB/schema
     )
+
 
